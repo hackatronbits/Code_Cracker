@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Attendance System</div>
+        <ul class="nav-links">
+            <li><a href="">Attendance Log</a></li>
+        </ul>
+    </div>
+
+    
+    <!-- Attendance Form -->
+    <div id="attendance" class="form-container">
+        <h2>Mark Attendance</h2>
+        <form id="attendanceForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="class">Class:</label>
+            <input type="text" id="class" required><br>
+
+            <label for="rollNumber">Roll Number:</label>
+            <input type="text" id="rollNumber" required><br>
+
+            <label for="faceDetection">Face Detection:</label>
+            <button type="button" id="faceDetectionBtn">Start Face Detection</button><br>
+
+            <p id="status"></p>
+            
+            <button type="submit">Submit Attendance</button>
+        </form>
+    </div>
+  <footer class="attendance-footer">
+  <div class="footer-container">
+    <!-- Contact Information -->
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul class="contact-list">
+        <li><i class="fas fa-phone"></i> Toll Free: 1800-123-4567</li>
+        <li><i class="fas fa-envelope"></i>
+         Email: abhisheksaha7530@gmail.com</li>
+        <li><i class="fas fa-map-marker-alt"></i> Address: 123 Campus Rd, Education City</li>
+      </ul>
+    </div>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <p>&copy; 2023 Attendance Management System. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="scripts.js">
+
+
+    </script>
+</body>
+</html>

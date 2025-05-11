@@ -1,0 +1,117 @@
+/* Navbar Styling */
+/* Use Flexbox to distribute space and align items in the nav bar */ 
+*{
+  margin: 0;padding: 0;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* pushes logo left and links right */ /* :contentReference[oaicite:0]{index=0} */
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 1%;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li {
+  margin-left: 10%;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Form Container */
+/* White card with rounded corners and subtle drop shadow */ 
+.form-container {
+  background-color: #ffffffe2;
+  width: 50%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;          /* :contentReference[oaicite:1]{index=1} */
+  box-shadow: 0 4px 6px rgba(0.9, 0.9, 0.4, 0.3); /* :contentReference[oaicite:2]{index=2} */
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+/* Form Elements */
+/* Stack labels and inputs vertically */ 
+form {
+  display: flex;
+  flex-direction: column;       /* :contentReference[oaicite:3]{index=3} */
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;           /* :contentReference[oaicite:4]{index=4} */
+  font-size: 1rem;
+}
+
+/* Buttons */
+/* Base style and hover state */ 
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;           /* :contentReference[oaicite:5]{index=5} */
+  background-color: #4CAF50;
+  color: #1a0505;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2f6731b4;
+}
+
+/* Status Message */
+#status {
+  margin-top: 10px;
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+body{
+
+  background: url('c.jpg');
+  background-size: cover; /* or contain, or specific dimensions */
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+footer{
+  background:#333;
+  height: 10%;
+  color: white;
+  padding: 10px;
+}
